@@ -10,7 +10,7 @@ const StartPage = () => {
         <span className=" ml-[30px] mt-[-13px]  text-[#F8C660]">Mania</span>
       </div>
 
-      <div className="flex flex-col w-[90%] mb-10">
+      <div className="flex flex-col w-[90%] mb-10 md:justify-center md:items-center">
         <label htmlFor="#inputbox" className="text-white text-sm mb-3">
           Enter Your Name
         </label>
