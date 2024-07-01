@@ -3,7 +3,6 @@ import QuizPage from "./components/QuizPage";
 import StartPage from "./components/StartPage";
 import SelectPage from "./components/SelectPage";
 import ScorePage from "./components/ScorePage";
-import Test from "./components/Test";
 import { QuizContext } from "./helper/Context";
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
   const [category, setCategory] = useState("");
   const [difficulty, setDifficulty] = useState("");
   const [quizQues, setQuizQues] = useState();
-  const [quizState, setQuizState] = useState("test");
+  const [quizState, setQuizState] = useState("Start");
   const [score, setScore] = useState(0);
   const [userName, setUserName] = useState("");
 
