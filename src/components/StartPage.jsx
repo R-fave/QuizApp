@@ -17,7 +17,7 @@ const StartPage = () => {
         <input
           type="text"
           id="inputbox"
-          className=" w-[100%] p-2 bg-[#004643]/0 border rounded-xl placeholder:text-white placeholder:text-sm focus:outline-none text-white "
+          className=" w-[100%] p-2 bg-[#004643]/0 border rounded-xl placeholder:text-white placeholder:text-sm focus:outline-none text-white md:w-[60%] "
           placeholder="John Doe"
           onChange={(e) => {
             setUserName(e.target.value);
@@ -26,7 +26,7 @@ const StartPage = () => {
       </div>
 
       <button
-        className=" w-[90%] bg-[#f8c660] p-2 rounded-xl"
+        className=" w-[90%] bg-[#f8c660] p-2 rounded-xl md:w-[60%]"
         onClick={() => {
           setQuizState("Select");
         }}
